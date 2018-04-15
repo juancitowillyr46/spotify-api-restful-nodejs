@@ -58,7 +58,7 @@ function saveAlbum(req, res){
     album.title = params.title;
     album.description = params.description;
     album.year = params.year;
-    album.imge = 'null';
+    album.image = 'null';
     album.artist = params.artist;
 
     album.save((err, albumStored) => {
